@@ -1,0 +1,52 @@
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->
+<div class="sidebar-wrapper">
+
+   <div class="profile-container">
+
+       {% if site.name %}
+       <h1 class="name">{{site.name}}</h1>
+       {% endif %}
+
+       <img class="profile-img" src="{{site.baseurl}}/assets/images/{{ site.pic }}" alt="profile picture" />
+
+
+   </div><!--//profile-container-->
+
+   <div class="education-container container-block">
+     
+       <h2 class="container-block-title">Contact Info</h2>
+
+       <ul class="list-unstyled contact-list">
+
+          {% if site.email %}
+           <li class="email"><i class="fa fa-envelope"></i>{{site.email}}</li>
+           {% endif %}
+
+           {% if site.phone %}
+           <li class="phone"><i class="fa fa-phone"></i>{{site.phone}}</li>
+           {% endif %}
+
+           {% if site.website %}
+           <li class="website"><i class="fa fa-globe"></i>{{site.website}}</li>
+           {% endif %}
+
+           {% if site.linkedin %}
+           <li class="linkedin"><i class="fa fa-linkedin"></i>{{site.linkedin}}</li>
+           {% endif %}
+
+<!--
+{% if site.github %}
+           <li class="github"><i class="fa fa-github"></i>{{site.github}}</li>
+           {% endif %}
+
+           {% if site.twitter %}
+           <li class="twitter"><i class="fa fa-twitter"></i>{{site.twitter}}</li>
+           {% endif %}
+-->
+
+       </ul>
+   </div><!--//contact-container-->
+
+  {% include education.html %}
+
+</div><!--//sidebar-wrapper-->

@@ -1,0 +1,11 @@
+- intro:
+  description: "This is used for projects.html.  Requires the link to exist."
+
+- project:
+  title: Project 1
+  link: "#"
+  tagline: "This is info about the project."
+- project:
+  title: Project 2
+  link: "#"
+  tagline: "This is info about the project."

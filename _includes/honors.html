@@ -1,0 +1,25 @@
+{% if site.data.honors %}
+<div class="education-container container-block">
+
+  <h2 class="container-block-title">Awards</h2>
+
+  {% for award in site.data.honors %}
+    <div class="item">
+
+      <span class="skill-title">
+      {% if award.link %}
+      <a href="{{ award.link }}">{{ award.name }}</a>
+      {% else %}
+      {{ award.name }}
+      {% endif %}
+      </span>
+
+      {% if award.info %}
+      - {{ award.info }}
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</div><!--//education-container-->
+{% endif %}

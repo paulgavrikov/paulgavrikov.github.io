@@ -1,0 +1,15 @@
+- course:
+  title: Mathematics
+  link: https://en.wikipedia.org/wiki/Mathematics
+  tagline: Info about the course. You can add links.
+- course:
+  title: Physics
+  tagline: All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
+- course:
+  title: Mathematics
+  link: https://en.wikipedia.org/wiki/Mathematics
+  tagline: Info about the course. You can add links.
+- course:
+  title: Physics
+  tagline: Info about the course.
+  

@@ -1,0 +1,25 @@
+{% if site.data.publications %}
+<section class="section publication-section">
+  <h2 class="section-title"><i class="fa fa-book"></i>Publications</h2>
+
+{% for publication in site.data.publications %}
+  <div class="item">
+
+    <li>
+      <a href="#">{{ publication.title }}</a> ({{ publication.type }})
+    </li>
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-conference">{{ publication.conference }}</div>
+
+
+    {% if publication.details %}
+    <div class="details">
+      <p>{{ publication.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

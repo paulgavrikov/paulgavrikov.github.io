@@ -1,0 +1,25 @@
+{% if site.data.coursework %}
+<section class="section projects-section">
+
+  <h2 class="section-title"><i class="fa fa-book"></i>Coursework</h2>
+
+  {% for course in site.data.coursework %}
+    <div class="item">
+
+      <span class="project-title">
+      {% if course.link %}
+      <a href="{{ course.link }}">{{ course.title }}</a>
+      {% else %}
+      {{ course.title }}
+      {% endif %}
+      </span>
+
+      {% if course.tagline %}
+      - <span class="project-tagline">{{ course.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

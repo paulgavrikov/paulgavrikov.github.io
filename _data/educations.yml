@@ -1,0 +1,14 @@
+- education:
+  degree: PhD
+  time: 2021 - now
+  details: Computer Vision
+- education:
+  degree: M.Sc. Computer Science
+  university: University of Freiburg, Germany
+  time: 2015 - 2018
+  details: "specialization: information systems<br/>elective module: business studies"
+- education:
+  degree: B.Sc. Computer Science
+  university: University of Freiburg, Germany
+  time: 2012 - 2015
+  details: "elective module: business studies"

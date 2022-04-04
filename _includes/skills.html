@@ -1,0 +1,17 @@
+{% if site.data.skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title"><i class="fa fa-language"></i>Languages and Skills</h2>
+
+  <div class="skillset">
+
+    <ul class="list-unstyled interests-list">
+      {%for skill in site.data.skills %}
+      <li>{{ skill.name }} <span class="lang-desc">({{ skill.level }})</span></li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}
