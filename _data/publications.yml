@@ -1,4 +1,11 @@
 - publication:
+  title: "Adversarial Robustness through the Lens of Convolutional Filters"
+  type: Full Paper
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  conference: "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) - The Art of Robustness: Devil and Angel in Adversarial Machine Learning Workshop"
+  time: 2022
+  details: 
+- publication:
   title: "CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters"
   type: <b>Oral</b>
   authors: <b>Paul Gavrikov</b>, Janis Keuper
