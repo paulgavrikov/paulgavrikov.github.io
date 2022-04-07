@@ -2,7 +2,9 @@
 <section class="section publication-section">
   <h2 class="section-title"><i class="fa fa-book"></i>Publications</h2>
 
-{% for publication in site.data.publications %}
+{% for year in (2018..2022) reversed %}
+<!-- <h3 class="degree">{{ year}}</h3> -->
+{% for publication in site.data.publications %}{% if publication.time == year %}
   <div class="item">
 
     <li>
@@ -19,7 +21,8 @@
     {% endif %}
 
   </div><!--//item-->
+{% endif %}{% endfor %}
 {% endfor %}
-
 </section><!--//section-->
 {% endif %}
+
