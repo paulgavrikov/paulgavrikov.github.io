@@ -1,4 +1,10 @@
 - publication:
+  title: "Robust Models are less Over-Confident"
+  type: Workshop Paper
+  authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
+  time: 2022
+  conference: "The 39th International Conference on Machine Learning (ICML) Workshop on Adversarial Machine Learning Frontiers"
+- publication:
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
   type: Full Paper
   authors: <b>Paul Gavrikov</b>, Janis Keuper
@@ -14,7 +20,7 @@
   details: <a href="https://arxiv.org/abs/2203.15331">[arXiv]</a> <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Repo]</a>
 - publication:
   title: "An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters"
-  type: Poster
+  type: Workshop Paper
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: 35th Conference on Neural Information Processing Systems (NeurIPS) - Workshop on Distribution Shifts (DistShift)
   time: 2021
