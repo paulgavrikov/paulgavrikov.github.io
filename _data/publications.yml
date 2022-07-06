@@ -8,16 +8,16 @@
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
   type: Full Paper
   authors: <b>Paul Gavrikov</b>, Janis Keuper
-  conference: "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) - The Art of Robustness: Devil and Angel in Adversarial Machine Learning Workshop"
+  conference: "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - The Art of Robustness: Devil and Angel in Adversarial Machine Learning Workshop"
   time: 2022
-  details: <a href="https://arxiv.org/abs/2204.02481">[arXiv]</a> <a href="https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens">[Repo]</a>
+  details: <a href="https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/html/Gavrikov_Adversarial_Robustness_Through_the_Lens_of_Convolutional_Filters_CVPRW_2022_paper.html">[CVF Open Access]</a> <a href="https://arxiv.org/abs/2204.02481">[arXiv]</a> <a href="https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens">[Repo]</a>
 - publication:
   title: "CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters"
   type: <b>Oral</b>
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
   time: 2022
-  details: <a href="https://arxiv.org/abs/2203.15331">[arXiv]</a> <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Repo]</a>
+  details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">[CVF Open Access]</a> <a href="https://arxiv.org/abs/2203.15331">[arXiv]</a> <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Repo]</a>
 - publication:
   title: "An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters"
   type: Workshop Paper
