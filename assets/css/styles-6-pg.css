@@ -31,23 +31,8 @@ h5,
 h6 {
   font-weight: 700;
 }
-
 h3 b {
   color: #00A388;
-}
-
-a {
-  color: #455A64;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:focus {
-  text-decoration: none;
 }
 p {
   line-height: 1.5;
@@ -229,11 +214,8 @@ p {
 /* .main-wrapper .item li b{
   color: #4B6A78;
 } */
-.main-wrapper .item p a{
-  color: #455A64;
-}
-.main-wrapper .publication-section .details {
-  margin-top: 10px;
+.main-wrapper .publication-section a {
+  font-weight: bold;
 }
 .main-wrapper .project-title {
   font-size: 16px;
