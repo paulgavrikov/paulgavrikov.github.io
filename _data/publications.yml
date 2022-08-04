@@ -1,54 +1,48 @@
 - publication:
   title: "Robust Models are less Over-Confident"
-  type: Workshop Paper
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2022
-  conference: "The 39th International Conference on Machine Learning (ICML) Workshop on Adversarial Machine Learning Frontiers"
+  conference: "ICML-W, 2022"
 - publication:
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
-  type: Full Paper
   authors: <b>Paul Gavrikov</b>, Janis Keuper
-  conference: "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops - The Art of Robustness: Devil and Angel in Adversarial Machine Learning Workshop"
+  conference: "CVPR-W, 2022"
   time: 2022
   details: <a href="https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/html/Gavrikov_Adversarial_Robustness_Through_the_Lens_of_Convolutional_Filters_CVPRW_2022_paper.html">[Paper]</a> <a href="https://arxiv.org/abs/2204.02481">[arXiv]</a> <a href="https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens">[Code]</a>
 - publication:
   title: "CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters"
   type: <b>Oral</b>
   authors: <b>Paul Gavrikov</b>, Janis Keuper
-  conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  conference: "CVPR, 2022"
   time: 2022
-  details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">[Paper]</a> <a href="https://arxiv.org/abs/2203.15331">[arXiv]</a> <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Code]</a>
+  details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">paper</a> / <a href="https://arxiv.org/abs/2203.15331">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Code]</a>
 - publication:
   title: "An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters"
-  type: Workshop Paper
   authors: <b>Paul Gavrikov</b>, Janis Keuper
-  conference: 35th Conference on Neural Information Processing Systems (NeurIPS) - Workshop on Distribution Shifts (DistShift)
+  conference: "NeurIPS-W, 2021"
   time: 2021
-  details: <a href="https://openreview.net/forum?id=2st0AzxC3mh">[Paper]</a> <a href="https://arxiv.org/abs/2201.08465">[arXiv]</a> <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">[Code]</a>
+  details: <a href="https://openreview.net/forum?id=2st0AzxC3mh">paper</a> / <a href="https://arxiv.org/abs/2201.08465">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">code</a>
 - publication:
   title: "A Low Power and Low Latency Scan Algorithm for Bluetooth Low Energy Radios with Energy Detection Mechanisms"
-  type: Full Paper, <b>Best Paper Award</b>
+  type: <b>Best Paper Award</b>
   authors: <b>Paul Gavrikov</b>, Matthias Lai, Thomas Wendt
-  conference: 2019 IEEE Asia Pacific Conference on Wireless and Mobile (APWiMob)
+  conference: "APWiMob, 2019"
   time: 2019
-  details: <a href="https://ieeexplore.ieee.org/document/8618031">[Paper]</a>
+  details: <a href="https://ieeexplore.ieee.org/document/8618031">paper</a>
 - publication:
   title: "Exploring non-idealities in real device implementations of Bluetooth Mesh"
-  type: Journal Article
   authors: <b>Paul Gavrikov</b>, Matthias Lai, Thomas Wendt
-  conference: International Journal of Interdisciplinary Telecommunications and Networking (IJITN)
+  conference: "IJITN"
   time: 2019
   details: <a href="https://www.igi-global.com/article/exploring-non-idealities-in-real-device-implementations-of-bluetooth-mesh/265148">[Paper]</a>
 - publication:  
   title: "Exploring non-idealities in real device implementations of Bluetooth Mesh"
-  type: Full Paper, unpublished
   authors: <b>Paul Gavrikov</b>, Matthias Lai, Thomas Wendt
-  conference: 2019 Wireless Telecommunications Symposium (WTS)
+  conference: WTS, 2019
   time: 2019
 - publication:
   title: "Using Bluetooth Low Energy to trigger a robust ultra-low power FSK wake-up receiver"
-  type: Full Paper
   authors: <b>Paul Gavrikov</b>, Pascal E. Verboket, Tolgay Ungan, Markus Müller, Matthias Lai, Christian Schindelhauer, Leonhard M. Reindl, Thomas Wendt
-  conference: 25th IEEE International Conference on Electronics, Circuits and Systems (ICECS)
+  conference: ICECS, 2018
   time: 2018
   details: <a href="https://ieeexplore.ieee.org/document/8618031">[Paper]</a>
