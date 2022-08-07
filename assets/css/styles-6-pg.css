@@ -10,7 +10,6 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #455A64;
   background: #f5f5f5;
   font-size: 14px;
   padding: 30px;
@@ -106,44 +105,6 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
-.sidebar-wrapper .education-container .item {
-  margin-bottom: 15px;
-}
-.sidebar-wrapper .education-container .item:last-child {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .education-container .meta {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 500;
-  margin-bottom: 0px;
-  margin-top: 0;
-}
-.sidebar-wrapper .education-container .time {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 500;
-  margin-bottom: 0px;
-}
-.sidebar-wrapper .languages-container .lang-desc {
-  color: rgba(255, 255, 255, 0.6);
-}
-.sidebar-wrapper .languages-list {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .languages-list li {
-  margin-bottom: 10px;
-}
-.sidebar-wrapper .languages-list li:last-child {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .interests-list {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .interests-list li {
-  margin-bottom: 10px;
-}
-.sidebar-wrapper .interests-list li:last-child {
-  margin-bottom: 0;
-}
 .main-wrapper {
   background: #fff;
   padding: 60px;
@@ -153,7 +114,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #455A64;
+  color: #555;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -172,7 +133,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #455A64;
+  background: #555;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -191,7 +152,6 @@ p {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title, .main-wrapper .degree {
-  color: #455A64;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -201,21 +161,23 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #455A64;
 }
 .main-wrapper .company, .main-wrapper .university {
   margin-bottom: 10px;
-  color: #78909C;
+  color: #555;
 }
 .main-wrapper .publication-authors {
   font-style: italic;
-  color: #78909C;
+  color: #555;
 }
 /* .main-wrapper .item li b{
   color: #4B6A78;
 } */
 .main-wrapper .publication-section a {
   font-weight: bold;
+}
+.main-wrapper .publication-section .details{
+  font-weight: lighter;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -237,14 +199,6 @@ p {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
-}
-.skillset .level-bar {
-  height: 12px;
-  background: #f5f5f5;
-}
-.skillset .level-bar-inner {
-  height: 12px;
-  background: #6c92a3;
 }
 .footer {
   padding: 30px;
