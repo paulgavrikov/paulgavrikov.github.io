@@ -2,13 +2,8 @@
   title: "Robust Models are less Over-Confident"
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2022
-  conference: "NeurIPS, 2022"
-- publication:
-  title: "Robust Models are less Over-Confident"
-  authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
-  time: 2022
   short: "Adversarial Training (AT) leads to models that are significantly less overconfident with their decisions, even on clean data, than non-robust models. The analysis shows that not only AT, but also the models' building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences."
-  conference: "ICML-W, 2022"
+  conference: "NeurIPS & ICML-W, 2022"
 - publication:
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
