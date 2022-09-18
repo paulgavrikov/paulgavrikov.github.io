@@ -1,6 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache
 .Rproj.user
 simple-cv.Rproj
 .Rhistory
