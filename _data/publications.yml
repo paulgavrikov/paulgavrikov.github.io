@@ -1,3 +1,9 @@
+- publication: Does Medical Imaging learn different Convolution Filters?
+  title: "Robust Models are less Over-Confident"
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  short: "Earlier, we showed that, on average, convolution filters only show minor drifts when comparing various dimensions, including the learned task, image domain, or dataset. However, medical imaging models showed significant outliers through "spikey" filter distributions. We revisit this observation and perform an in-depth analysis of medical imaging models."
+  conference: "NeurIPS-W, 2022"
+  details: <a href="https://arxiv.org/abs/2210.13799">arXiv</a>
 - publication:
   title: "Robust Models are less Over-Confident"
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
