@@ -36,6 +36,16 @@ h3 b {
 p {
   line-height: 1.5;
 }
+table{
+  width: 100%;
+}
+#news-table td {
+  padding: 5px;
+}
+#news-table td:nth-child(odd) {
+  vertical-align: top;
+}
+
 .wrapper {
   /* background: #4B6A78; */
   max-width: 960px;
