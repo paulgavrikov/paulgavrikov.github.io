@@ -1,4 +1,11 @@
 - publication:
+  title: "Rethinking 1x1 Convolutions: Can we train CNNs with Frozen Random Filters?"
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  time: 2023
+  short: "We question if we ever have to learn spatial convolution filters. Even with default i.i.d. random inits, we can achieve 75.66% val acc with ResNet-50 on ImageNet without ever learning any spatial convolution weight. Additionally, we show techniques to significantly reduce the number of parameters in these settings."
+  conference: "ArXiv preprint"
+  details: <a href="https://arxiv.org/abs/2301.11360">arXiv</a>
+- publication:
   title: "Does Medical Imaging learn different Convolution Filters?"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2022
