@@ -59,7 +59,7 @@
 - publication:
   title: "Exploring non-idealities in real device implementations of Bluetooth Mesh"
   authors: <b>Paul Gavrikov</b>, Matthias Lai, Thomas Wendt
-  conference: "WTS 2019 (presentation) and IJITN"
+  conference: "Wireless Telecommunications Symposium 2019 (presentation) and IJITN"
   time: 2019
   short: "We compare the performance of Bluetooth Mesh implementations on real chipsets against the ideal implementation of the specification. It is shown that there are non-idealities in the underlying Bluetooth Low Energy specification in real chipsets and in the implementation of Mesh, which introduces an unruly transmission as well as reception behavior. These effects lead to an impact on transmission rate, reception rate, latency, as well as a more significant impact on the average power consumption."
   details: <a href="https://www.igi-global.com/article/exploring-non-idealities-in-real-device-implementations-of-bluetooth-mesh/265148">paper</a>
