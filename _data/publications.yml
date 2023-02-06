@@ -5,7 +5,7 @@
   short: "We question if we ever have to learn spatial convolution filters. Even with default i.i.d. random inits, we can achieve 75.66% validation acc with ResNet-50 on ImageNet without ever learning any spatial convolution weight. Additionally, we show techniques to significantly reduce the number of parameters in these settings."
   conference: ""
   details: <a href="https://arxiv.org/abs/2301.11360">arXiv</a>
-  image: images/tn_1x1_conv.png
+  image: images/small/tn_1x1_conv.png
 - publication:
   title: "Does Medical Imaging learn different Convolution Filters?"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
@@ -13,7 +13,7 @@
   short: "Earlier, we showed that, on average, convolution filters only show minor drifts when comparing various dimensions, including the learned task, image domain, or dataset. However, medical imaging models showed significant outliers through spikey filter distributions. We revisit this observation and perform an in-depth analysis of medical imaging models."
   conference: "NeurIPS Workshops, 2022"
   details: <a href="https://arxiv.org/abs/2210.13799">arXiv</a>
-  image: images/tn_medicalfilters.png
+  image: images/small/tn_medicalfilters.png
 - publication:
   title: "Robust Models are less Over-Confident"
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
@@ -21,7 +21,7 @@
   short: "Adversarial Training (AT) leads to models that are significantly less overconfident with their decisions, even on clean data, than non-robust models. The analysis shows that not only AT, but also the models' building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences."
   conference: "NeurIPS, 2022 & ICML Workshops, 2022"
   details: <a href="https://arxiv.org/abs/2210.05938">arXiv</a> / <a href="https://github.com/GeJulia/robustness_confidences_evaluation">code</a>
-  image: images/tn_robustconf.png
+  image: images/small/tn_robustconf.png
 - publication:
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
@@ -29,7 +29,7 @@
   short: "We investigate 3x3 convolution filters that form in adversarially-trained robust models and find that these models form more diverse, less sparse, and more orthogonal filters than their normal counterparts. The largest differences are found in the deepest layers and the very first convolution layer which forms highly distinct thresholding filters."
   time: 2022
   details: <a href="https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/html/Gavrikov_Adversarial_Robustness_Through_the_Lens_of_Convolutional_Filters_CVPRW_2022_paper.html">paper</a> / <a href="https://arxiv.org/abs/2204.02481">arXiv</a> / <a href="https://github.com/paulgavrikov/cvpr22w_RobustnessThroughTheLens">code</a>
-  image: images/tn_advfilter.png
+  image: images/small/tn_advfilter.png
 - publication:
   title: "CNN Filter DB: An Empirical Investigation of Trained Convolutional Filters"
   type: <font color="red"><strong>Oral Presentation</strong></font>
@@ -38,7 +38,7 @@
   short: "This paper discusses the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provided a dataset with over 1.4 billion filters from hundreds of trained CNNs. Further, analyzed distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like visual category of the dataset, task, architecture, or layer depth. Based on these results, we concluded that model pre-training can succeed on arbitrary datasets if they meet size and variance conditions."
   time: 2022
   details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">paper</a> / <a href="https://arxiv.org/abs/2203.15331">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">code</a>
-  image: images/tn_cnnfilterdb.png
+  image: images/small/tn_cnnfilterdb.png
 - publication:
   title: "An Empirical Investigation of Model-to-Model Distribution Shifts in Trained Convolutional Filters"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
@@ -46,7 +46,7 @@
   time: 2021
   short: "This paper looks at distribution shifts in filter weights used for various computer vision tasks. We collected data from hundreds of trained CNNs and analyzed the distribution shifts along different axes of meta-parameters. We found interesting distribution shifts between trained filters, and argue that this is a valuable source for further investigation into understanding the impact of shifts in the input data on the generalization abilities of CNN models."
   details: <a href="https://openreview.net/forum?id=2st0AzxC3mh">paper</a> / <a href="https://arxiv.org/abs/2201.08465">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">code</a>
-  image: images/tn_empirical.png
+  image: images/small/tn_empirical.png
 - publication:
   title: "A Low Power and Low Latency Scan Algorithm for Bluetooth Low Energy Radios with Energy Detection Mechanisms"
   type: <font color="red"><strong>Best Paper Award</strong></font>
@@ -55,7 +55,7 @@
   short: "A new, more efficient algorithm for Bluetooth scanning is presented that uses less power and can scale with incoming network traffic. The algorithm does not require any changes to advertisers, so it is compatible with existing devices, and performance evaluation shows that it is more efficient than existing methods."
   time: 2019
   details: <a href="https://ieeexplore.ieee.org/document/8964210">paper</a>
-  image: images/tn_ble_scan.png
+  image: images/small/tn_ble_scan.png
 - publication:
   title: "Exploring non-idealities in real device implementations of Bluetooth Mesh"
   authors: <b>Paul Gavrikov</b>, Matthias Lai, Thomas Wendt
@@ -63,7 +63,7 @@
   time: 2019
   short: "We compare the performance of Bluetooth Mesh implementations on real chipsets against the ideal implementation of the specification. It is shown that there are non-idealities in the underlying Bluetooth Low Energy specification in real chipsets and in the implementation of Mesh, which introduces an unruly transmission as well as reception behavior. These effects lead to an impact on transmission rate, reception rate, latency, as well as a more significant impact on the average power consumption."
   details: <a href="https://www.igi-global.com/article/exploring-non-idealities-in-real-device-implementations-of-bluetooth-mesh/265148">paper</a>
-  image: images/tn_ble_nonidealities.png
+  image: images/small/tn_ble_nonidealities.png
 - publication:
   title: "Using Bluetooth Low Energy to trigger a robust ultra-low power FSK wake-up receiver"
   authors: <b>Paul Gavrikov</b>, Pascal E. Verboket, Tolgay Ungan, Markus Müller, Matthias Lai, Christian Schindelhauer, Leonhard M. Reindl, Thomas Wendt
@@ -71,4 +71,4 @@
   time: 2018
   short: "We discuss a new approach to using BLE packets to create an FSK-like addressable wake-up packet. A wake-up receiver system was developed from off-the-shelf components to detect these packets. This system is more robust than traditional OOK wake-up systems and has a sensitivity of -47.8 dBm at a power consumption of 18.5 uW during passive listening. The system has a latency of 31.8 ms with a symbol rate of 1437 Baud."
   details: <a href="https://ieeexplore.ieee.org/document/8618031">paper</a>
-  image: images/tn_wur.png
+  image: images/small/tn_wur.png
