@@ -1,26 +1,140 @@
----
-layout: compress
----
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-{% include head.html %}
+<!DOCTYPE HTML>
+<html lang="en">
 
+<head>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
 <body>
-    <div class="wrapper">
-        {% include sidebar.html %}
-        
-        <div class="main-wrapper">
-           
-           {{content}}
-            
-        </div><!--//main-body-->
-    </div>
- 
-{% include footer.html %}
- 
-{% include scripts.html %}
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:65%;vertical-align:middle">
+              <h1>
+                Paul Gavrikov
+              </h1>
+              <p>
+                I am a PhD student at the <a href="https://imla.hs-offenburg.de/">Institute of Machine Learning Analytics</a>, part of the Offenburg University, Germany where I work on Computer Vision via Convolutional Neural Networks. My PhD advisor is <a href="https://www.keuper-labs.org/">Janis Keuper</a>.
+              <p>
+              </p>
+                I have a BS and MS in Computer Science from the <a href="https://uni-freiburg.de">University of Freiburg, Germany</a>.
+              </p>
+              <p style="text-align:center">
+                <a target="_blank" href="https://mailhide.io/e/sXKtr6XO"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/paulgavrikov">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=cshJtrQAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://linkedin.com/in/paul-gavrikov-60a4666a"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="https://medium.com/@paulgavrikov"> Medium </a>  &nbsp;/&nbsp;
+                <a href="https://dblp.org/pid/234/1360.html"> dblp </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:35%;max-width:35%;">
+              <img style="width:100%;max-width:100%;border: 0px solid #fff;border-radius: 100%;box-shadow: 0px 0px 2px rgb(0 0 0 / 35%);" alt="profile photo" src="images/profile.jpeg">
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <p></p>
+              <table id="news-table" style="width: 100%;">
+                <tr>
+                    <td><b>11/2022</b></td>
+                    <td>I was invited to talk at the IEEE ISBI special session on Machine Learning in April 2023. Looking forward for my first invited conference talk in Cartagena, Columbia!</td>
+                </tr>
+                <tr>
+                    <td><b>09/2022</b></td>
+                    <td>1 full paper and 1 workshop paper accepted a NeurIPS 2022.</td>
+                </tr>
+                <tr>
+                    <td><b>05/2022</b></td>
+                    <td>1 workshop paper accepted a ICML 2022.</td>
+                </tr>
+                <tr>
+                    <td><b>03/2022</b></td>
+                    <td>CNN Filter DB was selected for Oral presentation at CVPR 2022!</td>
+                </tr>
+                <tr>
+                    <td><b>01/2022</b></td>
+                    <td>1 full paper and 1 workshop paper accepted at CVPR 2022.</td>
+                </tr>
+                <tr>
+                    <td><b>09/2021</b></td>
+                    <td>1 workshop paper accepted a NeurIPS 2021.</td>
+                </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+              <p>
+                I'm interested in computer vision, particularly regarding efficiency, and adversarial robustness. Before that, I worked on Bluetooth Low Energy.
+              </p>
+            </td>
+          </tr>
+        </table>
+        {% if site.data.publications %}
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for year in (2018..2099) reversed %}
+          {% for publication in site.data.publications %}{% if publication.time == year %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              {% if publication.image %}
+              <img src="{{publication.image}}" alt="{{publication.title}}" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{publication.title}}</h3>
+              <br>
+              {{publication.authors}}
+              <br>
+              <em>{{publication.conference}}</em> {% if publication.type %}({{ publication.type }}){% endif %}
+              <br>
+              {% if publication.details %}
+              {{publication.details}}
+              {% endif %}
+              <p>
+                {{ publication.short }}
+              </p>
+            </td>
+          </tr>
+          {% endif %}{% endfor %}
+          {% endfor %}
+        </table>
+        {% endif %}
+        <br>
+        <object data="images/signature.svg" width="225em" style="display: block; margin-left: auto; margin-right: auto;"></object>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 </body>
-</html> 
+
+</html>
 
