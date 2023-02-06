@@ -1,35 +1,15 @@
-This theme was designed by Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/). Visit her website for more themes [http://themes.3rdwavemedia.com/](http://themes.3rdwavemedia.com/).  [Webjeda](http://webjeda.com) made this into a Jekyll Theme: [http://webjeda.com/online-cv/](http://webjeda.com/online-cv/).  Visit their website for more Jekyll themes and for custom website design. [Eli Holmes](https://eeholmes.github.io/) modified Webjeda's design to make it more suitable for a simple flat resume.
+# updated website
 
-## Installation
-* Fork the repository
-* Go to settings of your repository and set Github Pages source as master.
-* Your new site should be ready at https://username.github.io/simple-cv/
-* If you change the name of your repository, change the baseurl in `_config.yml`
+This repo is built on a fork of **Jekyll Now** from [this repository](https://github.com/barryclark/jekyll-now). **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
-## Enter your data
-* Edit `_config.yml` with your name, education and summary.  The summary will appear in About Me.
-* Edit `_data\experiences.yml` with your work experience.
-* Edit `_data\coursework.yml` with your coursework.
-* Edit `_data\skills.yml` with your skills.
-* Add your picture to `assets\images\` and put the file name in `_config.yml` in `pic:`
+The website design is just a modification of [Jon Barron's website](https://jonbarron.info/) and is converted for my own use, re-purposing my old markdown posts. **Feel free to use template for your own purposes**, but please respect copyright for all the images/content in my `images`, `pdfs`, `_posts` folders. 
 
-## Customizing
-* Edit `index.html` and remove sections you want.  For example, you can remove the coursework section.
-* If you want to change the headers (like Work Experience), edit the corresponding file in `_includes\*.html`.
-* Want a section (like Coursework) to look different? edit the corresponding file in `_includes\*.html`.
-* Want a new section using an existing one as a template? Copy the existing file in `_includes\*.html` and give it a new name. Make a corresponding yml file in `_data\`.  You can copy an existing one to use as a template.  Then add an `include` to `index.html`.
-* Want a new page that you can link to? Create an html file at the base level. `foo.html`.  You can use `index.html` as a template. Your new page url will be `baseurl\foo.html`.
-* If you want a different favicon, delete the current one `favicon.ico` and upload a new one.
 
-## More customizing
-If you want to make css changes, then edit the css file.
-* Make a copy of `assets\css\style-kz.css` and name it something else.
-* Edit your copy.
-* Change the `style:` line in `_config.yml` to be your new style file.
-* Look at the other style files in `assets\css\` for ideas however note that `style-kz.css` has been changed from the original.  New classes: skills-section, skill-title, item in skills-section.  project-title changed to be bold.
 
-You can find more themes at [**Jekyll Themes**](http://jekyll-themes.com)
-
-## Reuse statement
-
-Reuse and adapt as you wish. No attribution needed or expected.
+## issues
+* In general, jekyll will try to build a full page for every post. I skip that by forcing `permalink: /`. This creates multiple entries in sitemap.xml for index.html but is otherwise fine. 
+* If you want multiple paragraphs, consider using `excerpt_separator: <!--more-->` in `_config.yml`, for my own use I didn't need this. 
+* My own posts have lots of extra stuff left over from my old jekyll design ("author", long descriptions, etc.), feel free to ignore them
+* I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images. 
+* I have three categories of post with slightly differerent formatting, so changing sizing requires edits in multiple paces. 
+* If you use this, I'd appreciate a link back either to this repo or my personal website so others can find this too. 
