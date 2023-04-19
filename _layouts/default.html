@@ -50,34 +50,12 @@
               <h2>News</h2>
               <p></p>
               <table id="news-table" style="width: 100%;">
+                {% for news_entry in site.data.news %}
                 <tr>
-                    <td><b>12/2022</b></td>
-                    <td>I was selected as a NeurIPS 2022 Datasets and Benchmarks Track outstanding reviewer.</td>
+                    <td><b>{{news_entry.date}}</b></td>
+                    <td>{{news_entry.text}}</td>
                 </tr>
-                <tr>
-                    <td><b>11/2022</b></td>
-                    <td>I was invited to talk at the <a href="https://2023.biomedicalimaging.org/en/SPECIAL-SESSIONS.html">IEEE ISBI Special Session on Machine Learning</a> in April 2023. Looking forward for my first invited conference talk in Cartagena, Columbia!</td>
-                </tr>
-                <tr>
-                    <td><b>09/2022</b></td>
-                    <td>1 full paper and 1 workshop paper accepted at NeurIPS 2022.</td>
-                </tr>
-                <tr>
-                    <td><b>05/2022</b></td>
-                    <td>1 workshop paper accepted at ICML 2022.</td>
-                </tr>
-                <tr>
-                    <td><b>03/2022</b></td>
-                    <td>CNN Filter DB was selected for Oral presentation at CVPR 2022!</td>
-                </tr>
-                <tr>
-                    <td><b>01/2022</b></td>
-                    <td>1 full paper and 1 workshop paper accepted at CVPR 2022.</td>
-                </tr>
-                <tr>
-                    <td><b>09/2021</b></td>
-                    <td>1 workshop paper accepted at NeurIPS 2021.</td>
-                </tr>
+                {% endfor %}
             </table>
             </td>
           </tr>
