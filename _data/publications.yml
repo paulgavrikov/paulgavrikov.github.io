@@ -2,7 +2,7 @@
   title: "An Extended Study of Human-like Behavior under Adversarial Training"
   authors: <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2023
-  short: "Our analysis revelas how different forms of adversarial training (AT) affect human-like behaviour of CNNs and Transformers. Additionally, we propose a hypothesis of why AT increases shape bias and in which scenarios it can improve out-of-distribution generalization from a frequency perspective."
+  short: "Our analysis reveals how different forms of adversarial training (AT) affect human-like behaviour of CNNs and Transformers. Additionally, we propose a hypothesis of why AT increases shape bias and in which scenarios it can improve out-of-distribution generalization from a frequency perspective."
   conference: "CVPR Workshops, 2023"
   details: <a href="https://arxiv.org/abs/2303.12669">arXiv</a>
   image: images/small/tn_atshapebias.png
