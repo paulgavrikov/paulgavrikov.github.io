@@ -2,7 +2,7 @@
   title: "An Extended Study of Human-like Behavior under Adversarial Training"
   authors: <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2023
-  short: "Our analysis reveals how different forms of adversarial training (AT) affect human-like behaviour of CNNs and Transformers. Additionally, we propose a hypothesis of why AT increases shape bias and in which scenarios it can improve out-of-distribution generalization from a frequency perspective."
+  short: "Our analysis reveals how different forms of adversarial training (AT) affect human-like behavior of CNNs and Transformers. Additionally, we propose a hypothesis of why AT increases shape bias and in which scenarios it can improve out-of-distribution generalization from a frequency perspective."
   conference: "CVPR Workshops, 2023"
   details: <a href="https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Gavrikov_An_Extended_Study_of_Human-Like_Behavior_Under_Adversarial_Training_CVPRW_2023_paper.html">paper</a> / <a href="https://arxiv.org/abs/2303.12669">arXiv</a>
   image: images/small/tn_atshapebias.png
@@ -43,7 +43,7 @@
   type: <font color="red"><strong>Oral Presentation</strong></font>
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: "CVPR, 2022"
-  short: "This paper discusses the properties of the distributions of dominantly used 3x3 convolution filter kernels. We collected and publicly provided a dataset with over 1.4 billion filters from hundreds of trained CNNs. Further, analyzed distribution shifts (or the lack thereof) between trained filters along different axes of meta-parameters, like visual category of the dataset, task, architecture, or layer depth. Based on these results, we concluded that model pre-training can succeed on arbitrary datasets if they meet size and variance conditions."
+  short: "We collected and publicly provided a dataset with over 1.4 billion 3x3 convolution filters from hundreds of trained CNNs. Our observations show that - surprisingly - models learn highly similar filter pattern distributions independent of task and dataset, but differ by model architecture. We also propose methods to measure the quality of filters to detect overparameterization or underfitting and show that many publicly available models suffer from \"degenerated\" filters."
   time: 2022
   details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">paper</a> / <a href="https://arxiv.org/abs/2203.15331">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">code</a>
   image: images/small/tn_cnnfilterdb.png
