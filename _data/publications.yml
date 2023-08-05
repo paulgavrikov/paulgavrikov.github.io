@@ -1,4 +1,12 @@
 - publication:
+  title: "On the Interplay of Convolutional Padding and Adversarial Robustness"
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  time: 2023
+  short: "Our study examines the relationship between padding in Convolutional Neural Networks (CNNs) and vulnerabilities to adversarial attacks. We show that adversarial attacks result in different perturbation anomalies at image boundaries depending on the padding mode and discuss which mode is the best for adversarial settings. (Spoiler: it's zero padding)"
+  conference: "ICCV Workshops, 2023"
+  details: Coming soon.
+  image: images/small/tn_atpadding.png
+- publication:
   title: "An Extended Study of Human-like Behavior under Adversarial Training"
   authors: <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2023
