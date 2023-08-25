@@ -1,4 +1,12 @@
 - publication:
+  title: "Don't Look into the Sun: Adversarial Solarization Attacks on Image Classifiers"
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  time: 2023
+  short: "We present a new adversarial attack based on image solarization. Despite being conceptually simple, the attack is effective, cheap to compute, and does not risk destroying the global structure of natural images. It also serves as a universal black-box attack against models trained with the legacy ImageNet training receipe."
+  conference: "In Review"
+  details: <a href="http://arxiv.org/abs/2308.12661">arXiv</a>
+  image: images/small/tn_advsol.png
+- publication:
   title: "On the Interplay of Convolutional Padding and Adversarial Robustness"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2023
@@ -19,7 +27,7 @@
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2023
   short: "We question if learning spatial convolution filters is necessary. Even with default i.i.d. random inits, we can achieve 75.66% validation acc with ResNet-50 on ImageNet without ever learning any spatial convolution weight. Additionally, random filters can be more robust against adversarial attacks than learned filters."
-  conference: ""
+  conference: "In Review"
   details: <a href="https://arxiv.org/abs/2301.11360">arXiv</a>
   image: images/small/tn_1x1_conv.png
 - publication:
@@ -35,7 +43,7 @@
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2022
   short: "Adversarial Training (AT) leads to models that are significantly less overconfident with their decisions, even on clean data, than non-robust models. The analysis shows that not only AT, but also the models' building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences."
-  conference: "NeurIPS, 2022 & ICML Workshops, 2022"
+  conference: "NeurIPS, 2022 (initially at ICML Workshops, 2022)"
   details: <a href="https://arxiv.org/abs/2210.05938">arXiv</a> / <a href="https://github.com/GeJulia/robustness_confidences_evaluation">code</a>
   image: images/small/tn_robustconf.png
 - publication:
