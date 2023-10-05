@@ -12,7 +12,7 @@
   time: 2023
   short: "Our study examines the relationship between padding in Convolutional Neural Networks (CNNs) and vulnerabilities to adversarial attacks. We show that adversarial attacks result in different perturbation anomalies at image boundaries depending on the padding mode and discuss which mode is the best for adversarial settings. (Spoiler: it's zero padding)"
   conference: "ICCV Workshops, 2023"
-  details: <a href="http://arxiv.org/abs/2308.06612">arXiv</a>
+  details: <a href="https://openaccess.thecvf.com/content/ICCV2023W/BRAVO/html/Gavrikov_On_the_Interplay_of_Convolutional_Padding_and_Adversarial_Robustness_ICCVW_2023_paper.html">paper</a> / <a href="http://arxiv.org/abs/2308.06612">arXiv</a>
   image: images/small/tn_atpadding.png
 - publication:
   title: "An Extended Study of Human-like Behavior under Adversarial Training"
