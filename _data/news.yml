@@ -1,4 +1,7 @@
 - news_entry:
+  date: 11/2023
+  text: I was selected as a NeurIPS 2023 top reviewer.
+- news_entry:
   date: 08/2023
   text: <a href="http://arxiv.org/abs/2308.06612">On the Interplay of Convolutional Padding and Adversarial Robustness</a> was accepted for the ICCV 2023 workshop proceedings.
 - news_entry:
