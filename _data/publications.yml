@@ -1,8 +1,17 @@
 - publication:
+  title: "Improving Native CNN Robustness with Filter Frequency Regularization"
+  authors: Jovita Lukasik*, <b>Paul Gavrikov*</b>, Janis Keuper, Margret Keuper
+  time: 2023
+  highlight: True
+  short: "We propose controlling the frequency content of learned convolution filters in vision CNNs. This results in model that are natively more robust to adversarial robustness and corruptions, generalize better, and are generally more aligned with human vision."
+  conference: "TMLR"
+  details: <a href="https://openreview.net/forum?id=2wecNCpZ7Y">paper</a> #<!--/ <a href="">arXiv</a> / <a href="">code</a> -->
+  image: images/small/tn_filterfreq.png
+- publication:
   title: "Don't Look into the Sun: Adversarial Solarization Attacks on Image Classifiers"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2023
-  short: "We present a new adversarial attack based on image solarization. Despite being conceptually simple, the attack is effective, cheap to compute, and does not risk destroying the global structure of natural images. It also serves as a universal black-box attack against models trained with the legacy ImageNet training receipe."
+  short: "We present a new adversarial attack based on image solarization. Despite being conceptually simple, the attack is effective, cheap to compute, and does not risk destroying the global structure of natural images. It also serves as a universal black-box attack against models trained with the legacy ImageNet training recipe."
   conference: "In Review"
   details: <a href="http://arxiv.org/abs/2308.12661">arXiv</a> / <a href="https://github.com/paulgavrikov/adversarial_solarization">code</a>
   image: images/small/tn_advsol.png
@@ -26,6 +35,7 @@
   title: "The Power of Linear Combinations: Learning with Random Convolutions"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2023
+  highlight: True
   short: "We question if learning spatial convolution filters is necessary. Even with default i.i.d. random inits, we can achieve 75.66% validation acc with ResNet-50 on ImageNet without ever learning any spatial convolution weight. Additionally, random filters can be more robust against adversarial attacks than learned filters."
   conference: "In Review"
   details: <a href="https://arxiv.org/abs/2301.11360">arXiv</a>
@@ -34,7 +44,7 @@
   title: "Does Medical Imaging learn different Convolution Filters?"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2022
-  short: "Earlier, we showed that, on average, convolution filters only show minor drifts when comparing various dimensions, including the learned task, image domain, or dataset. However, medical imaging models showed significant outliers through spikey filter distributions. We revisit this observation and perform an in-depth analysis of medical imaging models."
+  short: "Earlier, we showed that, on average, convolution filters only show minor drifts when comparing various dimensions, including the learned task, image domain, or dataset. However, medical imaging models showed significant outliers through spiky filter distributions. We revisit this observation and perform an in-depth analysis of medical imaging models."
   conference: "NeurIPS Workshops, 2022"
   details: <a href="https://arxiv.org/abs/2210.13799">arXiv</a>
   image: images/small/tn_medicalfilters.png
@@ -42,6 +52,7 @@
   title: "Robust Models are less Over-Confident"
   authors: Julia Grabinski, <b>Paul Gavrikov</b>, Janis Keuper, Margret Keuper
   time: 2022
+  highlight: True
   short: "Adversarial Training (AT) leads to models that are significantly less overconfident with their decisions, even on clean data, than non-robust models. The analysis shows that not only AT, but also the models' building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences."
   conference: "NeurIPS, 2022 (initially at ICML Workshops, 2022)"
   details: <a href="https://arxiv.org/abs/2210.05938">arXiv</a> / <a href="https://github.com/GeJulia/robustness_confidences_evaluation">code</a>
@@ -59,6 +70,7 @@
   type: <font color="red"><strong>Oral Presentation</strong></font>
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: "CVPR, 2022"
+  highlight: True
   short: "We collected and publicly provided a dataset with over 1.4 billion 3x3 convolution filters from hundreds of trained CNNs. Our observations show that - surprisingly - models learn highly similar filter pattern distributions independent of task and dataset, but differ by model architecture. We also propose methods to measure the quality of filters to detect overparameterization or underfitting and show that many publicly available models suffer from \"degenerated\" filters."
   time: 2022
   details: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Gavrikov_CNN_Filter_DB_An_Empirical_Investigation_of_Trained_Convolutional_Filters_CVPR_2022_paper.html">paper</a> / <a href="https://arxiv.org/abs/2203.15331">arXiv</a> / <a href="https://github.com/paulgavrikov/CNN-Filter-DB/">code</a>

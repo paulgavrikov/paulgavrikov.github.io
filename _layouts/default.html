@@ -34,7 +34,7 @@
                 Paul Gavrikov
               </h1>
               <p>
-                I am a PhD student at the <a href="https://imla.hs-offenburg.de/">Institute of Machine Learning Analytics</a>, part of the Offenburg University, Germany where I work on Computer Vision via Convolutional Neural Networks. My PhD advisor is <a href="https://www.keuper-labs.org/">Janis Keuper</a>.
+                I am a PhD student at the <a href="https://imla.hs-offenburg.de/">Institute of Machine Learning Analytics</a>, part of the Offenburg University, Germany where I work on Computer Vision. My PhD advisor is <a href="https://www.keuper-labs.org/">Janis Keuper</a>.
               <p>
               </p>
                 I have a BS and MS in Computer Science from the <a href="https://uni-freiburg.de">University of Freiburg, Germany</a>.
@@ -75,7 +75,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, particularly regarding efficiency, and adversarial robustness. Before that, I worked on Bluetooth Low Energy.
+                I'm interested in fundamental research on computer vision, with a particular focus on investigating the mechanistic interpretability of deep neural networks and consequently aiming to improve their training dynamics, robustness, and generalization abilities. Before starting my PhD, I worked on Bluetooth Low Energy. <span style="background-color:#ffffd0">Highlights.</span>
               </p>
             </td>
           </tr>
@@ -85,7 +85,9 @@
 
           {% for year in (2018..2099) reversed %}
           {% for publication in site.data.publications %}{% if publication.time == year %}
-          <tr>
+          <tr{% if publication.highlight %}
+              bgcolor="#ffffd0"
+            {% endif %}>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               {% if publication.image %}
               <img src="{{publication.image}}" alt="{{publication.title}}" style="width:auto; height:auto; max-width:100%;" />
