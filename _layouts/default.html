@@ -59,14 +59,16 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News</h2>
               <p></p>
-              <table id="news-table" style="width: 100%;">
-                {% for news_entry in site.data.news %}
-                <tr>
-                    <td><b>{{news_entry.date}}</b></td>
-                    <td>{{news_entry.text}}</td>
-                </tr>
-                {% endfor %}
-            </table>
+              <div style="overflow-y: scroll; height: 230px;">
+                <table id="news-table" style="width: 100%;">
+                  {% for news_entry in site.data.news %}
+                  <tr>
+                      <td><b>{{news_entry.date}}</b></td>
+                      <td>{{news_entry.text}}</td>
+                  </tr>
+                  {% endfor %}
+                </table>
+              </div>
             </td>
           </tr>
         </table>
