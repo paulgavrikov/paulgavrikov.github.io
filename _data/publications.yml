@@ -5,14 +5,14 @@
   highlight: True
   short: "We propose controlling the frequency content of learned convolution filters in vision CNNs. This results in model that are natively more robust to adversarial robustness and corruptions, generalize better, and are generally more aligned with human vision."
   conference: "TMLR"
-  details: <a href="https://openreview.net/forum?id=2wecNCpZ7Y">paper</a> #<!--/ <a href="">arXiv</a> / <a href="">code</a> -->
+  details: <a href="https://openreview.net/forum?id=2wecNCpZ7Y">paper</a> / <a href="https://github.com/jovitalukasik/filter_freq_reg">code</a> #<!--/ <a href="">arXiv</a> -->
   image: images/small/tn_filterfreq.png
 - publication:
   title: "Don't Look into the Sun: Adversarial Solarization Attacks on Image Classifiers"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   time: 2023
   short: "We present a new adversarial attack based on image solarization. Despite being conceptually simple, the attack is effective, cheap to compute, and does not risk destroying the global structure of natural images. It also serves as a universal black-box attack against models trained with the legacy ImageNet training recipe."
-  conference: "In Review"
+  conference: "Preprint"
   details: <a href="http://arxiv.org/abs/2308.12661">arXiv</a> / <a href="https://github.com/paulgavrikov/adversarial_solarization">code</a>
   image: images/small/tn_advsol.png
 - publication:
@@ -55,7 +55,7 @@
   highlight: True
   short: "Adversarial Training (AT) leads to models that are significantly less overconfident with their decisions, even on clean data, than non-robust models. The analysis shows that not only AT, but also the models' building blocks (like activation functions and pooling) have a strong influence on the models' prediction confidences."
   conference: "NeurIPS, 2022 (initially at ICML Workshops, 2022)"
-  details: <a href="https://arxiv.org/abs/2210.05938">arXiv</a> / <a href="https://github.com/GeJulia/robustness_confidences_evaluation">code</a>
+  details: <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/ff887781480973bd3cb6026feb378d1e-Abstract-Conference.html">paper</a> / <a href="https://arxiv.org/abs/2210.05938">arXiv</a> / <a href="https://github.com/GeJulia/robustness_confidences_evaluation">code</a>
   image: images/small/tn_robustconf.png
 - publication:
   title: "Adversarial Robustness through the Lens of Convolutional Filters"
