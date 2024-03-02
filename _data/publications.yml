@@ -1,11 +1,20 @@
 - publication:
+  title: "Spurious Generalization Indicators - A Sanity Check on Shape Bias, Spectral Bias, and the Critical Band"
+  authors: <b>Paul Gavrikov</b>, Janis Keuper
+  conference: "CVPR, 2024"
+  time: 2024
+  highlight: True
+  short: "We investigate the generalization capabilities of neural networks from the perspective of shape bias, spectral bias, and the critical band. Our results show that even when we fix the architecture these indicators are not reliable predictors of generalization performance."
+  details: "Coming soon."
+  image: images/small/404.png
+- publication:
   title: "Improving Native CNN Robustness with Filter Frequency Regularization"
   authors: Jovita Lukasik*, <b>Paul Gavrikov*</b>, Janis Keuper, Margret Keuper
   paperlink: https://openreview.net/forum?id=2wecNCpZ7Y
   time: 2023
   highlight: True
   short: "We propose controlling the frequency content of learned convolution filters in vision CNNs. This results in model that are natively more robust to adversarial robustness and corruptions, generalize better, and are generally more aligned with human vision."
-  conference: "TMLR"
+  conference: "TMLR, 2023"
   details: <a href="https://openreview.net/forum?id=2wecNCpZ7Y">paper</a> / <a href="https://github.com/jovitalukasik/filter_freq_reg">code</a> #<!--/ <a href="">arXiv</a> -->
   image: images/small/tn_filterfreq.png
 - publication:
