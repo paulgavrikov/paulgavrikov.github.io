@@ -1,4 +1,14 @@
 - publication:
+  title: "Are Vision Language Models Texture or Shape Biased and Can We Steer Them?"
+  authors: <b>Paul Gavrikov</b>, Jovita Lukasik, Steffen Jung, Robert Geirhos, Bianca Lamm, Muhammad Jehanzeb Mirza, Margret Keuper, Janis Keuper
+  conference: "Preprint"
+  time: 2024
+  highlight: True
+  short: "Surprisingly, LLM-powered Vision-Language Models (VLMs), often exhibit more shape bias than pure vision models, influenced by language. We show that this allows steering a purely visual bias by language."
+  details: <a href="https://arxiv.org/abs/2403.09193">arXiv</a> 
+  paperlink: https://arxiv.org/abs/2403.09193
+  image: images/small/tn_vlm_shapebias.png
+- publication:
   title: "Spurious Generalization Indicators - A Sanity Check on Shape Bias, Spectral Bias, and the Critical Band"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: "CVPR, 2024"

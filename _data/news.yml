@@ -1,5 +1,8 @@
 - news_entry:
   date: 03/2024
+  text: New preprint released <a href="https://arxiv.org/abs/2403.09193">Are Vision Language Models Texture or Shape Biased and Can We Steer Them?</a>
+- news_entry:
+  date: 03/2024
   text: <a href="#">Spurious Generalization Indicators - A Sanity Check on Shape Bias, Spectral Bias, and the Critical Band</a> was accepted at CVPR 2024.
 - news_entry:
   date: 12/2023
