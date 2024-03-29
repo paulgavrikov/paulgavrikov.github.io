@@ -9,12 +9,12 @@
   paperlink: https://arxiv.org/abs/2403.09193
   image: images/small/tn_vlm_shapebias.png
 - publication:
-  title: "Spurious Generalization Indicators - A Sanity Check on Shape Bias, Spectral Bias, and the Critical Band"
+  title: "Can Biases in ImageNet Models Explain Generalization?"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
   conference: "CVPR, 2024"
   time: 2024
   highlight: True
-  short: "We investigate the generalization capabilities of neural networks from the perspective of shape bias, spectral bias, and the critical band. Our results show that even when we fix the architecture these indicators are not reliable predictors of generalization performance."
+  short: "We investigate the generalization capabilities of neural networks from the perspective of shape bias, spectral biases, and the critical band. Our results show that even when we fix the architecture these indicators are not reliable predictors of generalization performance."
   details: "Coming soon."
   image: images/small/404.png
 - publication:
