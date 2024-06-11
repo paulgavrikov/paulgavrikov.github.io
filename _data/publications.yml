@@ -6,7 +6,7 @@
   time: 2024
   highlight: True
   short: "Surprisingly, LLM-powered Vision-Language Models (VLMs), often exhibit more shape bias than pure vision models, influenced by language. We show that this allows steering a purely visual bias by language."
-  details: <a href="https://arxiv.org/abs/2403.09193">arXiv</a> / <a href="https://github.com/paulgavrikov/vlm_shapebias">code</a>
+  details: <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Gavrikov_Can_Biases_in_ImageNet_Models_Explain_Generalization_CVPR_2024_paper.html">paper</a> / <a href="https://arxiv.org/abs/2403.09193">arXiv</a> / <a href="https://github.com/paulgavrikov/vlm_shapebias">code</a>
   image: images/small/tn_vlm_shapebias.png
 - publication:
   title: "Can Biases in ImageNet Models Explain Generalization?"
