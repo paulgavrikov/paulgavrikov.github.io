@@ -6,7 +6,7 @@
   time: 2024
   highlight: True
   short: "Surprisingly, LLM-powered Vision-Language Models (VLMs), often exhibit more shape bias than pure vision models, influenced by language. We show that this allows steering a purely visual bias by language."
-  details: <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Gavrikov_Can_Biases_in_ImageNet_Models_Explain_Generalization_CVPR_2024_paper.html">paper</a> / <a href="https://arxiv.org/abs/2403.09193">arXiv</a> / <a href="https://github.com/paulgavrikov/vlm_shapebias">code</a>
+  details: <a href="https://arxiv.org/abs/2403.09193">arXiv</a> / <a href="https://github.com/paulgavrikov/vlm_shapebias">code</a>
   image: images/small/tn_vlm_shapebias.png
 - publication:
   title: "Can Biases in ImageNet Models Explain Generalization?"
@@ -16,7 +16,7 @@
   time: 2024
   highlight: True
   short: "We investigate the generalization capabilities of neural networks from the perspective of shape bias, spectral biases, and the critical band. Our results show that even when we fix the architecture these indicators are not reliable predictors of generalization performance."
-  details: <a href="http://arxiv.org/abs/2404.01509">arXiv</a> / <a href="https://github.com/paulgavrikov/biases_vs_generalization">code</a>
+  details: <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Gavrikov_Can_Biases_in_ImageNet_Models_Explain_Generalization_CVPR_2024_paper.html">paper</a> / <a href="http://arxiv.org/abs/2404.01509">arXiv</a> / <a href="https://github.com/paulgavrikov/biases_vs_generalization">code</a>
   image: images/small/tn_bias_v_generalization.jpg
 - publication:
   title: "Improving Native CNN Robustness with Filter Frequency Regularization"
