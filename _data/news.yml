@@ -1,4 +1,7 @@
 - news_entry:
+  date: 09/2024
+  text: I was admitted into the Doctoral Consortium at ECCV 2024 and will be mentored by <a href="https://jonbarron.info/">Jon Barron</a>.
+- news_entry:
   date: 03/2024
   text: New preprint released <a href="https://arxiv.org/abs/2403.09193">Are Vision Language Models Texture or Shape Biased and Can We Steer Them?</a>
 - news_entry:
