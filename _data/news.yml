@@ -1,4 +1,7 @@
 - news_entry:
+  date: 07/2025
+  text: I successfully defended my PhD thesis "Decoding Robust Generalization in Object Recognition Models" at the University of Mannheim 🎉.
+- news_entry:
   date: 06/2025
   text: I gave a talk about feature biases in vision models at <a href="https://youtu.be/9efpCs1ltcM">VAL@IISc, Bengaluru</a> and the University of Freiburg.
 - news_entry:
