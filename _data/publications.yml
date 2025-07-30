@@ -22,11 +22,11 @@
   title: "GLOV: Guided Large Language Models as Implicit Optimizers for Vision Language Models"
   authors: M. Jehanzeb Mirza, Mengjie Zhao, Zhuoyuan Mao, Sivan Doveh, Wei Lin, <b>Paul Gavrikov</b>, Michael Dorkenwald, Shiqi Yang, Saurav Jha, Hiromi Wakaki, Yuki Mitsufuji, Horst Possegger, Rogerio Feris, Leonid Karlinsky, James Glass
   paperlink: https://arxiv.org/abs/2410.06154
-  conference: "Preprint"
+  conference: "TMLR, 2025"
   time: 2024
   highlight: False
-  short: "We introduce GLOV, a method that enables LLMs to optimize VLMs by generating and refining prompts for downstream vision tasks, achieving significant performance improvements across various datasets."
-  details: <a href="https://arxiv.org/abs/2410.06154">arXiv</a> / <a href="https://github.com/jmiemirza/GLOV">code</a>
+  short: "We introduce GLOV, a method that enables LLMs to optimize VLMs by generating and refining prompts for downstream vision tasks while being guided by previously explored prompts, achieving significant performance improvements across various benchmarks."
+  details: <a href="https://arxiv.org/abs/2410.06154">arXiv</a> / <a href="https://openreview.net/forum?id=kZLANTp6Vw">paper</a> / <a href="https://github.com/jmiemirza/GLOV">code</a>
   image: images/tn_glov.png
 - publication:
   title: "Can Biases in ImageNet Models Explain Generalization?"
