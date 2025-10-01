@@ -1,4 +1,7 @@
 - news_entry:
+  date: 09/2025
+  text: We have released the <a href="https://paulgavrikov.github.io/visualoverload/">VisualOverload</a> benchmark for evaluating vision models under visual overload.
+- news_entry:
   date: 07/2025
   text: I successfully defended my PhD thesis "Decoding Robust Generalization in Object Recognition Models" at the University of Mannheim 🎉.
 - news_entry:
