@@ -1,6 +1,16 @@
 - publication:
+  title: "VisualOverload: Visual Understanding of VLMs in Really Dense Scenes"
+  authors: <b>Paul Gavrikov</b>, Wei Lin, M. Jehanzeb Mirza, Soumya Jahagirdar, Muhammad Huzaifa, Sivan Doveh, Serena Yeung-Levy, James Glass, Hilde Kuehne
+  paperlink: https://arxiv.org/pdf/2509.25339
+  conference: "Under Review"
+  time: 2024
+  highlight: True
+  short: "We introduce VisualOverload, a fresh VQA benchmark that focuses on detailed, knowledge-free vision tasks in densely populated art images. The results indicate a significant performance gap, with frontier models struggling to achieve high accuracy, suggesting that basic visual understanding in complex scenes remains unsolved."
+  details: <a href="https://arxiv.org/pdf/2509.25339">arXiv</a> / <a href="https://paulgavrikov.github.io/visualoverload/">benchmark</a> / <a href="https://github.com/paulgavrikov/visualoverload">code</a>
+  image: images/tn_vol.png
+- publication:
   title: "Can We Talk Models Into Seeing the World Differently?"
-  authors: <b>Paul Gavrikov</b>, Jovita Lukasik, Steffen Jung, Robert Geirhos, Muhammad Jehanzeb Mirza, Margret Keuper, Janis Keuper
+  authors: <b>Paul Gavrikov</b>, Jovita Lukasik, Steffen Jung, Robert Geirhos, M. Jehanzeb Mirza, Margret Keuper, Janis Keuper
   paperlink: https://arxiv.org/abs/2403.09193
   conference: "ICLR, 2025 (initially at CVPR Workshops, 2024)"
   time: 2024
