@@ -3,11 +3,21 @@
   authors: <b>Paul Gavrikov</b>, Wei Lin, M. Jehanzeb Mirza, Soumya Jahagirdar, Muhammad Huzaifa, Sivan Doveh, Serena Yeung-Levy, James Glass, Hilde Kuehne
   paperlink: https://arxiv.org/pdf/2509.25339
   conference: "Under Review"
-  time: 2024
+  time: 2025
   highlight: True
   short: "We introduce VisualOverload, a fresh VQA benchmark that focuses on detailed, knowledge-free vision tasks in densely populated art images. The results indicate a significant performance gap, with frontier models struggling to achieve high accuracy, suggesting that basic visual understanding in complex scenes remains unsolved."
   details: <a href="https://arxiv.org/pdf/2509.25339">arXiv</a> / <a href="https://paulgavrikov.github.io/visualoverload/">benchmark</a> / <a href="https://github.com/paulgavrikov/visualoverload">code</a>
-  image: images/tn_vol.png
+  image: images/small/tn_vol.png
+- publication:
+  title: "TTRV: Test-Time Reinforcement Learning for Vision Language Models"
+  authors: Akshit Singh, Shyam Marjit, Wei Lin, <b>Paul Gavrikov</b>, Serena Yeung-Levy, Hilde Kuehne, Rogerio Feris, Sivan Doveh, James Glass, M. Jehanzeb Mirza
+  paperlink: https://arxiv.org/pdf/2510.06783
+  conference: "Under Review"
+  time: 2025
+  highlight: False
+  short: "We introduce TTRV, a framework that allows Vision-Language Models (VLMs) to adapt and improve during inference — without any labeled data. By combining frequency-based rewards and diversity control, TTRV uses reinforcement learning directly at test time to make models more accurate and confident."
+  details: <a href="https://arxiv.org/pdf/https://arxiv.org/abs/2510.06783">arXiv</a> / <a href="https://github.com/Akshit21112002/TTRV">code</a>
+  image: images/small/tn_ttrv.png
 - publication:
   title: "Can We Talk Models Into Seeing the World Differently?"
   authors: <b>Paul Gavrikov</b>, Jovita Lukasik, Steffen Jung, Robert Geirhos, M. Jehanzeb Mirza, Margret Keuper, Janis Keuper
@@ -17,7 +27,7 @@
   highlight: True
   short: "We investigate the propagation of visual biases in LLM-powered Vision-Language Models (VLMs). Through the lense of the texture/shape bias, we find that not only does the multi-modal fusion with LLMs impact the inherited bias from a vision encoder, but this also allows us to simply prompt the model to change the bias, or said casually: we can talk the model into seeing the world differently."
   details: <a href="https://arxiv.org/abs/2403.09193">arXiv</a> / <a href="https://openreview.net/forum?id=iVMcYxTiVM">paper</a> / <a href="https://github.com/paulgavrikov/vlm_shapebias">code</a>
-  image: images/tn_vlm_shapebias.png
+  image: images/small/tn_vlm_shapebias.png
 - publication:
   title: "How Do Training Methods Influence the Utilization of Vision Models?"
   authors: <b>Paul Gavrikov</b>, Shashank Agnihotri, Margret Keuper, Janis Keuper
@@ -27,7 +37,7 @@
   highlight: True
   short: "In this preliminary study, we analyze the influence of training methods on the utilization of layers in ImageNet classification models while keeping training data and the architecture fixed."
   details: <a href="https://arxiv.org/abs/2410.14470">arXiv</a> / <a href="https://github.com/paulgavrikov/layer_criticality">code</a>
-  image: images/tn_layer_crit.png
+  image: images/small/tn_layer_crit.png
 - publication:
   title: "GLOV: Guided Large Language Models as Implicit Optimizers for Vision Language Models"
   authors: M. Jehanzeb Mirza, Mengjie Zhao, Zhuoyuan Mao, Sivan Doveh, Wei Lin, <b>Paul Gavrikov</b>, Michael Dorkenwald, Shiqi Yang, Saurav Jha, Hiromi Wakaki, Yuki Mitsufuji, Horst Possegger, Rogerio Feris, Leonid Karlinsky, James Glass
@@ -37,7 +47,7 @@
   highlight: False
   short: "We introduce GLOV, a method that enables LLMs to optimize VLMs by generating and refining prompts for downstream vision tasks while being guided by previously explored prompts, achieving significant performance improvements across various benchmarks."
   details: <a href="https://arxiv.org/abs/2410.06154">arXiv</a> / <a href="https://openreview.net/forum?id=kZLANTp6Vw">paper</a> / <a href="https://github.com/jmiemirza/GLOV">code</a>
-  image: images/tn_glov.png
+  image: images/small/tn_glov.png
 - publication:
   title: "Can Biases in ImageNet Models Explain Generalization?"
   authors: <b>Paul Gavrikov</b>, Janis Keuper
