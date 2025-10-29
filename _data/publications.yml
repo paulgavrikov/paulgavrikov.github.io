@@ -6,7 +6,7 @@
   time: 2025
   highlight: True
   short: "We introduce VisualOverload, a fresh VQA benchmark that focuses on detailed, knowledge-free vision tasks in densely populated art images. The results indicate a significant performance gap, with frontier models struggling to achieve high accuracy, suggesting that basic visual understanding in complex scenes remains unsolved."
-  details: <a href="https://arxiv.org/pdf/2509.25339">arXiv</a> / <a href="https://paulgavrikov.github.io/visualoverload/">benchmark</a> / <a href="https://github.com/paulgavrikov/visualoverload">code</a>
+  details: <a href="https://arxiv.org/abs/2509.25339">arXiv</a> / <a href="https://paulgavrikov.github.io/visualoverload/">benchmark</a> / <a href="https://github.com/paulgavrikov/visualoverload">code</a>
   image: images/small/tn_vol.png
 - publication:
   title: "TTRV: Test-Time Reinforcement Learning for Vision Language Models"
@@ -16,7 +16,7 @@
   time: 2025
   highlight: False
   short: "We introduce TTRV, a framework that allows Vision-Language Models (VLMs) to adapt and improve during inference — without any labeled data. By combining frequency-based rewards and diversity control, TTRV uses reinforcement learning directly at test time to make models more accurate and confident."
-  details: <a href="https://arxiv.org/pdf/https://arxiv.org/abs/2510.06783">arXiv</a> / <a href="https://github.com/Akshit21112002/TTRV">code</a>
+  details: <a href="https://arxiv.org/abs/2510.06783">arXiv</a> / <a href="https://github.com/Akshit21112002/TTRV">code</a>
   image: images/small/tn_ttrv.png
 - publication:
   title: "Can We Talk Models Into Seeing the World Differently?"
