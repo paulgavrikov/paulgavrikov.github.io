@@ -6,7 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H93EGV7P9Q"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-H93EGV7P9Q');
@@ -20,21 +20,31 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
 
 </head>
+
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:65%;vertical-align:middle">
               <h1>
                 Paul Gavrikov
               </h1>
               <p>
-                I am an independent researcher specializing in multi-modal vision systems. Previously, I was a postdoctoral researcher at the <a href="https://tuebingen.ai/">Tübingen AI Center</a> working with <a href="https://hildekuehne.github.io/">Hilde Kuehne</a>, and at the <a href="https://www.goethe-university-frankfurt.de/en">Goethe University Frankfurt</a>. I received my PhD from the <a href="https://www.uni-mannheim.de/dws/">University of Mannheim</a>, under the supervision of <a href="https://www.keuper-labs.org/">Janis Keuper</a>. I also hold a BSc and MSc in Computer Science from the <a href="https://uni-freiburg.de">University of Freiburg</a>.
+                I am an independent researcher specializing in multi-modal vision systems. Previously, I was a
+                postdoctoral researcher at the <a href="https://tuebingen.ai/">Tübingen AI Center</a> working with <a
+                  href="https://hildekuehne.github.io/">Hilde Kuehne</a>, and at the <a
+                  href="https://www.goethe-university-frankfurt.de/en">Goethe University Frankfurt</a>. I received my
+                PhD from the <a href="https://www.uni-mannheim.de/dws/">University of Mannheim</a>, under the
+                supervision of <a href="https://www.keuper-labs.org/">Janis Keuper</a>. I also hold a BSc and MSc in
+                Computer Science from the <a href="https://uni-freiburg.de">University of Freiburg</a>.
               <p>
               <p style="text-align:center">
                 <a target="_blank" href="mailto:paulgavrikov@yahoo.de"> Email</a> &nbsp;/&nbsp;
@@ -43,16 +53,19 @@
                 <a href="https://github.com/paulgavrikov">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=cshJtrQAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://linkedin.com/in/paul-gavrikov-60a4666a">LinkedIn</a> &nbsp;/&nbsp;
-                <a href="https://medium.com/@paulgavrikov">Medium</a>  &nbsp;/&nbsp;
+                <a href="https://medium.com/@paulgavrikov">Medium</a> &nbsp;/&nbsp;
                 <a href="https://dblp.org/pid/234/1360.html">dblp</a>
               </p>
             </td>
             <td style="padding:2.5%;width:35%;max-width:35%;">
-              <img style="width:100%;max-width:100%;border: 0px solid #fff;border-radius: 100%;box-shadow: 0px 0px 2px rgb(0 0 0 / 35%);" alt="profile photo" src="images/small/profile.jpeg">
+              <img
+                style="width:100%;max-width:100%;border: 0px solid #fff;border-radius: 100%;box-shadow: 0px 0px 2px rgb(0 0 0 / 35%);"
+                alt="profile photo" src="images/small/profile.jpeg">
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>News</h2>
@@ -61,8 +74,8 @@
                 <table id="news-table" style="width: 100%;">
                   {% for news_entry in site.data.news %}
                   <tr>
-                      <td><b>{{news_entry.date}}</b></td>
-                      <td>{{news_entry.text}}</td>
+                    <td><b>{{news_entry.date}}</b></td>
+                    <td>{{news_entry.text}}</td>
                   </tr>
                   {% endfor %}
                 </table>
@@ -70,26 +83,30 @@
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
-              <p>My current research zooms-in on questions around multi-modal foundation models, before that I explored generalization and robustness in image classifiers. A long time ago (but not <a href="https://en.wikipedia.org/wiki/Star_Wars_opening_crawl">in a galaxy far, far away</a>), I worked on Bluetooth Low Energy. <span style="background-color:#ffffd0">Highlights.</span>
+              <p>My current research zooms-in on questions around multi-modal foundation models, before that I explored
+                generalization and robustness in image classifiers. A long time ago (but not <a
+                  href="https://en.wikipedia.org/wiki/Star_Wars_opening_crawl">in a galaxy far, far away</a>), I worked
+                on Bluetooth Low Energy. <span style="background-color:#ffffd0">Highlights.</span>
               </p>
             </td>
           </tr>
         </table>
         {% if site.data.publications %}
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for year in (2018..2099) reversed %}
           {% for publication in site.data.publications %}{% if publication.time == year %}
-          <tr{% if publication.highlight %}
-              bgcolor="#ffffd0"
-            {% endif %}>
+          <tr{% if publication.highlight %} bgcolor="#ffffd0" {% endif %}>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               {% if publication.image %}
-              <img src="{{publication.image}}" alt="{{publication.title}}" style="width:auto; height:auto; max-width:100%;background-color: #fff;" />
+              <img src="{{publication.image}}" alt="{{publication.title}}"
+                style="width:auto; height:auto; max-width:100%;background-color: #fff;" />
               {% endif %}
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
@@ -106,78 +123,84 @@
                 {{ publication.short }}
               </p>
             </td>
-          </tr>
-          {% endif %}{% endfor %}
-          {% endfor %}
-        </table>
-        {% endif %}
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    </tr>
+    {% endif %}{% endfor %}
+    {% endfor %}
+  </table>
+  {% endif %}
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr>
+      <td style="padding:2.5%;width:100%;vertical-align:middle">
+        <h2>Academic Career</h2>
+        <p></p>
+        <table id="news-table" style="width: 100%;">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Academic Career</h2>
-              <p></p>
-              <table id="news-table" style="width: 100%;">
-                <tr>
-                    <td><b>Honors</b></td>
-                    <td>
-                      <li>Outstanding reviewer (NeurIPS 2023)</li>
-                      <li>Outstanding reviewer (NeurIPS 2022 Datasets and Benchmarks track)</li>
-                      <li>Accepted into the CIFAR and Vector Institute DLRL 2023 Summer School in Montreal</li>
-                      <li>Accepted and attended the ICVSS 2023 Summer School in Sicily</li>
-                      <li>Top-20 at the CVPR 2022 Art of Robustness Challenge</li>
-                      <li>Best Paper Award at APWiMob 2019</li>
-                    </td>
-                </tr>
-                <tr>
-                  <td><b>Area Chair</b></td>
-                  <td>
-                    <li>Weight Space Learning @ ICLR (2025)</li>
-                  </td>
-                </tr>
-                <tr>
-                  <td><b>Conference Reviewer</b></td>
-                  <td>
-                    <li>NeurIPS Datasets and Benchmarks Track (2022-2025)</li>  
-                    <li>CVPR (2023-2026)</li>
-                    <li>WACV (2024-2025)</li>
-                    <li>ICLR (2024,2026)</li>
-                    <li>Alignment Track @ AAAI (2025)</li>  
-                    <li>MMFM @ CVPR (2024-2025)</li>  
-                    <li>XAI4CV @ CVPR (2025)</li>  
-                    <li>NeurIPS (2023-2024)</li>
-                    <li>ECCV (2024)</li>
-                    <li>ICML (2024)</li>
-                    <li>ICCV (2023)</li>
-                    <li>BMVC (2023)</li>
-                  </td>
-              </tr>
-              <tr>
-                <td><b>Journal Reviewer</b></td>
-                <td>
-                  <li>Springer Machine Learning (2023)</li>
-                </td>
-            </tr>
-            </table>
+            <td><b>Honors</b></td>
+            <td>
+              <li>Outstanding reviewer (NeurIPS 2023)</li>
+              <li>Outstanding reviewer (NeurIPS 2022 Datasets and Benchmarks track)</li>
+              <li>Accepted into the CIFAR and Vector Institute DLRL 2023 Summer School in Montreal</li>
+              <li>Accepted and attended the ICVSS 2023 Summer School in Sicily</li>
+              <li>Top-20 at the CVPR 2022 Art of Robustness Challenge</li>
+              <li>Best Paper Award at APWiMob 2019</li>
             </td>
           </tr>
-        </table>
-        <br>
-        <object data="images/signature.svg" width="225em" style="display: block; margin-left: auto; margin-right: auto;"></object>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
-              </p>
+            <td><b>Organizer</b></td>
+            <td>
+              <li>CV4Edu @ CVPR (2026)</li>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Area Chair</b></td>
+            <td>
+              <li>Weight Space Learning @ ICLR (2025)</li>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Conference Reviewer</b></td>
+            <td>
+              <li>NeurIPS Datasets and Benchmarks Track (2022-2025)</li>
+              <li>CVPR (2023-2026)</li>
+              <li>WACV (2024-2025)</li>
+              <li>ICLR (2024,2026)</li>
+              <li>Alignment Track @ AAAI (2025)</li>
+              <li>MMFM @ CVPR (2024-2025)</li>
+              <li>XAI4CV @ CVPR (2025)</li>
+              <li>NeurIPS (2023-2024)</li>
+              <li>ECCV (2024)</li>
+              <li>ICML (2024)</li>
+              <li>ICCV (2023)</li>
+              <li>BMVC (2023)</li>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Journal Reviewer</b></td>
+            <td>
+              <li>Springer Machine Learning (2023)</li>
             </td>
           </tr>
         </table>
       </td>
     </tr>
   </table>
+  <br>
+  <object data="images/signature.svg" width="225em"
+    style="display: block; margin-left: auto; margin-right: auto;"></object>
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:center;font-size:small;">
+          Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+        </p>
+      </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
 </body>
 
 </html>
-
