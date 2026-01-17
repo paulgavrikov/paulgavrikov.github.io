@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <!-- Google tag (gtag.js) -->
@@ -23,9 +23,24 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
     type="text/css">
 
+  <!-- Theme initialization (prevents flash of wrong theme) -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
 </head>
 
 <body>
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span id="theme-icon">🌙</span>
+  </button>
+
   <table
     style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
@@ -91,7 +106,7 @@
               <p>My current research zooms-in on questions around multi-modal foundation models, before that I explored
                 generalization and robustness in image classifiers. A long time ago (but not <a
                   href="https://en.wikipedia.org/wiki/Star_Wars_opening_crawl">in a galaxy far, far away</a>), I worked
-                on Bluetooth Low Energy. <span style="background-color:#ffffd0">Highlights.</span>
+                on Bluetooth Low Energy. <span class="highlight">Highlights.</span>
               </p>
             </td>
           </tr>
@@ -102,7 +117,7 @@
 
           {% for year in (2018..2099) reversed %}
           {% for publication in site.data.publications %}{% if publication.time == year %}
-          <tr{% if publication.highlight %} bgcolor="#ffffd0" {% endif %}>
+          <tr{% if publication.highlight %} class="highlight-row" {% endif %}>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               {% if publication.image %}
               <img src="{{publication.image}}" alt="{{publication.title}}"
@@ -202,5 +217,36 @@
   </tr>
   </table>
 </body>
+
+<script>
+  // Theme Toggle Functionality
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+
+  function updateIcon(theme) {
+    themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+  }
+
+  // Set initial icon based on current theme
+  updateIcon(document.documentElement.getAttribute('data-theme'));
+
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateIcon(newTheme);
+  });
+
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) {
+      const newTheme = e.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      updateIcon(newTheme);
+    }
+  });
+</script>
 
 </html>
