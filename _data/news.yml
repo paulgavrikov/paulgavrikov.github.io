@@ -1,4 +1,7 @@
 - news_entry:
+  date: 01/2026
+  text: We are organizing the <a href="https://cv4edu.github.io/">CV4Edu</a> workshop at CVPR 2026!
+- news_entry:
   date: 09/2025
   text: We have released the <a href="https://paulgavrikov.github.io/visualoverload/">VisualOverload</a> benchmark for evaluating vision models under visual overload.
 - news_entry:
