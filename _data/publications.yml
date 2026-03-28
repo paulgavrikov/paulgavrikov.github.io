@@ -6,7 +6,7 @@
   time: 2026
   highlight: False
   short: "To address CLIP's failure to understand text negations, we propose a more reliable MLLMs-as-a-judge evaluation framework to replace flawed retrieval-based metrics. Furthermore, we demonstrate that we can improve CLIP's negation-aware behavior without fine-tuning by steering a newly identified negation direction within its embedding space at test time."
-  details: <a href="http://arxiv.org/abs/2603.20554">arXiv</a> 
+  details: <a href="http://arxiv.org/abs/2603.20554">arXiv</a> / <a href="https://github.com/fawazsammani/negation-steering">code</a>
   image: images/small/tn_clip_neg.jpg
 - publication:
   title: "VisualOverload: Visual Understanding of VLMs in Really Dense Scenes"
